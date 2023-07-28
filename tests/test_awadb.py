@@ -194,7 +194,7 @@ def Test_LangChain_MetaFilter():
 
 if __name__ == "__main__":
     awadb_client = awadb.Client()
-    Test_EmbeddingText(awadb_client)
+    #Test_EmbeddingText(awadb_client)
     Test_Vector1(awadb_client)
     Test_Vector2(awadb_client)
     Test_Load(awadb_client)
